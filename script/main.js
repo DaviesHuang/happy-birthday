@@ -256,6 +256,45 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
+
+
+    .from(
+      ".maddie2",
+      15,
+      {
+        scale: 3.5,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".ten", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
+
+    .from(
+      ".maddie3",
+      15,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".eleven", 0.5, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    })
+
+
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
@@ -266,8 +305,8 @@ const animationTimeline = () => {
       "+=1"
     );
 
-  // tl.seek("currentStep");
   // tl.timeScale(2);
+  tl.timeScale(5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
