@@ -258,27 +258,13 @@ const animationTimeline = () => {
     })
 
 
-    .from(
-      ".maddie2",
-      15,
-      {
-        scale: 3.5,
-        opacity: 0,
-        x: 25,
-        y: -25,
-        rotationZ: -45
-      },
-      "+=2"
-    )
-    .to(".ten", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
+    .from(".idea-preparefriend", 0.7, ideaTextTrans)
+    .to(".idea-preparefriend", 0.7, ideaTextTransLeave, "+=2")
+
 
     .from(
-      ".maddie3",
-      15,
+      ".maddie4",
+      2,
       {
         scale: 0.2,
         opacity: 0,
@@ -288,25 +274,461 @@ const animationTimeline = () => {
       },
       "+=2"
     )
-    .to(".eleven", 0.5, {
+    .from(".twelve", 25, {
+      opacity: 1,
+      y: 30,
+      zIndex: "-1"
+    })
+    .to(".twelve", 1, {
       opacity: 0,
       y: 30,
       zIndex: "-1"
     })
 
-
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-    .to(
-      ".last-smile",
-      0.5,
+    .from(
+      ".arthur",
+      2,
       {
-        rotation: 90
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
       },
       "+=1"
-    );
+    )
+    .to(".arthur", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=15")
+
+    .from(
+      ".blue",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".blue", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=7")
+
+
+    .from(
+      ".bowen",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=1"
+    )
+    .to(".bowen", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".doris",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".doris", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".elysia",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".elysia", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".frank",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".frank", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".gaohaotian",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".gaohaotian", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".gary",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".gary", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+
+    .from(
+      ".hanying",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".hanying", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".harry",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".harry", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".ian",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".ian", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=18")
+
+    .from(
+      ".huitian",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".huitian", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=15")
+
+    .from(
+      ".marshall",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".marshall", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=20")
+
+    .from(
+      ".miaoge",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".miaoge", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=15")
+
+    .from(
+      ".nikki",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 125,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".nikki", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=10")
+
+    .from(
+      ".shuhang",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".shuhang", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".toller",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".toller", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".jianchao",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".jianchao", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+
+    .from(
+      ".yanbai",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".yanbai", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
+      ".yida",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=2"
+    )
+    .to(".yida", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=20")
+
+    .from(
+      ".zhongyu",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".zhongyu", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+
+
+    .from(
+      ".bethany",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: -25,
+        y: 25,
+        rotationZ: 90
+      },
+      "+=2"
+    )
+    .to(".bethany", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    
+    .from(".four2", 0.7, {
+      scale: 0.2,
+      opacity: 0
+    })
+    .from(".fake-btn2", 0.3, {
+      scale: 0.2,
+      opacity: 0
+    })
+    .staggerTo(
+      ".hbd-chatbox2 span",
+      0.5,
+      {
+        visibility: "visible"
+      },
+      0.05
+    )
+    .to(".fake-btn2", 0.1, {
+      backgroundColor: "rgb(127, 206, 248)"
+    })
+    // .to(
+    //   ".four2",
+    //   0.5,
+    //   {
+    //     scale: 0.2,
+    //     opacity: 1,
+    //     y: -150
+    //   },
+    //   "+=0.7"
+    // )
+
+    // .staggerFrom(".end p", 1, ideaTextTrans, 1.2)
+    // .to(
+    //   ".last-smile",
+    //   0.5,
+    //   {
+    //     rotation: 90
+    //   },
+    //   "+=1"
+    // );
 
   // tl.timeScale(2);
-  tl.timeScale(5);
+  // tl.timeScale(5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
