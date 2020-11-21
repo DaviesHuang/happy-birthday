@@ -341,6 +341,24 @@ const animationTimeline = () => {
     }, "+=5")
 
     .from(
+      ".daijie",
+      2,
+      {
+        scale: 0.2,
+        opacity: 0,
+        x: 25,
+        y: -25,
+        rotationZ: -45
+      },
+      "+=1"
+    )
+    .to(".daijie", 2, {
+      opacity: 0,
+      y: 30,
+      zIndex: "-1"
+    }, "+=5")
+
+    .from(
       ".doris",
       2,
       {
